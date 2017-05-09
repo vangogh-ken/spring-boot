@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @EnableAutoConfiguration
-@RequestMapping(value = "/system/")
+@RequestMapping(value = "/test/")
 public class Application {
 	@RequestMapping("test")
 	String home() {

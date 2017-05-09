@@ -28,7 +28,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
  * @author Administrator 数据库相关配置
  */
 @Configuration
-@PropertySource("classpath:/config/properties/db.properties")
+//@PropertySource("classpath:/config/properties/db.properties")
 @EnableTransactionManagement
 @MapperScan(value = "org.cc.entity")
 public class DBConfig {
